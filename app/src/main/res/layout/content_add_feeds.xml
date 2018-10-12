@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".AddFeeds"
     tools:showIn="@layout/activity_add_feeds">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nfeed"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/addFeedTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:ems="10"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_field_background"
+            android:hint="Enter Feed Title"
+            android:textColorHint= "#dfdfdf"
+            android:textStyle="italic"
+            />
+
+        <EditText
+            android:id="@+id/addFeedAddressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:ems="10"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_field_background"
+            android:hint="Enter Feed Address"
+            android:textColorHint= "#dfdfdf"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:id="@+id/addFeedButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_background"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:text="Add Feed"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</LinearLayout>
