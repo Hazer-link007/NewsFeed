@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name">News Feed</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_add_feeds">AddFeeds</string>
-    <string name="title_activity_edit_feed">EditFeed</string>
-    <string name="title_activity_edit_feeds">EditFeeds</string>
-    <string name="title_activity_about_mf">AboutMf</string>
-    <string name="title_activity_news_feed">NewsFeed</string>
+    <string name="title_activity_add_feeds">Add Feeds</string>
+    <string name="title_activity_edit_feeds">Edit Feeds</string>
+    <string name="title_activity_about_mf">About Mf</string>
+    <string name="title_activity_news_feed">News Feed</string>
     <string name="feed_description"> is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum text Description goes here</string>
     <string name="feed_title">Title of the Feed goes herer</string>
