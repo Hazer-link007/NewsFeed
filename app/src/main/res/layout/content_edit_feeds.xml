@@ -16,8 +16,11 @@
         >
 
         <ListView
+            android:id="@+id/rssFeedListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:dividerHeight="2dp"
+            android:divider="@null"
             />
 
     </LinearLayout>
