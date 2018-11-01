@@ -8,4 +8,6 @@
     <string name="feed_description"> is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum text Description goes here</string>
     <string name="feed_title">Title of the Feed goes herer</string>
+    <string name="title_activity_web_view">webView</string>
+    <string name="title_activity_feed_web_view">FeedWebView</string>
 </resources>

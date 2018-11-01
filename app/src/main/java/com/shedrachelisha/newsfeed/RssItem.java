@@ -1,12 +1,14 @@
 package com.shedrachelisha.newsfeed;
 
+import java.net.URL;
+
 public class RssItem {
 
     private String title;
     private String description;
-    private String link;
+    private URL link;
 
-    public RssItem(String title,String description,String link){
+    public RssItem(String title,String description,URL link){
 
         this.title = title;
         this.description = description;
@@ -26,7 +28,7 @@ public class RssItem {
         this.description=description;
     }
 
-    public void setLink(String link){
+    public void setLink(URL link){
         this.link=link;
     }
 
@@ -38,7 +40,7 @@ public class RssItem {
         return description;
     }
 
-    public String getLink(){
+    public URL getLink(){
         return link;
     }
 }
